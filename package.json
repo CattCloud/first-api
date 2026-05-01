@@ -1,0 +1,26 @@
+{
+  "name": "first-api",
+  "version": "1.0.0",
+  "description": "Mi primer servidor con Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CattCloud/first-api.git"
+  },
+  "author": "Erick Verde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CattCloud/first-api/issues"
+  },
+  "homepage": "https://github.com/CattCloud/first-api#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
